@@ -1,0 +1,1 @@
+# yamcs-analogue-mission-template
