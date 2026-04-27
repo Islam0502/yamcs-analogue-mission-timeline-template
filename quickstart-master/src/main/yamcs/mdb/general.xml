@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpaceSystem
+    name="GENERAL"
+    xmlns="http://www.omg.org/spec/XTCE/20180204"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.omg.org/spec/XTCE/20180204 https://www.omg.org/spec/XTCE/20180204/SpaceSystem.xsd">
+
+  <TelemetryMetaData>
+
+    <ParameterTypeSet>
+
+      <!-- Pressure type: unit intentionally unspecified because the source pressure XML was not provided.
+           If your existing pressure XML defines an explicit pressure unit type, reuse it instead. -->
+      <FloatParameterType name="Pressure_Float32" sizeInBits="32">
+        <UnitSet />
+        <!-- Broad validity check to avoid false invalidation; adjust once pressure unit is confirmed. -->
+        <ValidRange minInclusive="0" maxInclusive="200000"/>
+      </FloatParameterType>
+
+      <FloatParameterType name="RH_Float32" sizeInBits="32">
+        <UnitSet>
+          <Unit>%RH</Unit>
+        </UnitSet>
+        <ValidRange minInclusive="0" maxInclusive="100"/>
+        <DefaultAlarm>
+          <StaticAlarmRanges>
+            <WarningRange minInclusive="40" maxInclusive="70"/>
+            <CriticalRange minInclusive="30" maxInclusive="80"/>
+          </StaticAlarmRanges>
+        </DefaultAlarm>
+      </FloatParameterType>
+
+      <IntegerParameterType name="CO2_UInt32" signed="false" sizeInBits="32">
+        <UnitSet>
+          <Unit>ppm</Unit>
+        </UnitSet>
+        <ValidRange minInclusive="0" maxInclusive="100000"/>
+        <DefaultAlarm>
+          <StaticAlarmRanges>
+            <WarningRange minInclusive="500" maxInclusive="1800"/>
+            <CriticalRange minInclusive="400" maxInclusive="2500"/>
+          </StaticAlarmRanges>
+        </DefaultAlarm>
+      </IntegerParameterType>
+
+      <!-- Assumption: VOC reported as ppb (tVOC). Change Unit if your sensor outputs mg/m3 or an index. -->
+      <FloatParameterType name="TVOC_Float32" sizeInBits="32">
+        <UnitSet>
+          <Unit>ppb</Unit>
+        </UnitSet>
+        <ValidRange minInclusive="0" maxInclusive="60000"/>
+      </FloatParameterType>
+
+      <!-- Assumption: NOx reported as ppb (often NO2-equivalent). Change Unit if needed. -->
+      <FloatParameterType name="NOX_Float32" sizeInBits="32">
+        <UnitSet>
+          <Unit>ppb</Unit>
+        </UnitSet>
+        <ValidRange minInclusive="0" maxInclusive="5000"/>
+      </FloatParameterType>
+
+      <FloatParameterType name="Temperature_Float32" sizeInBits="32">
+        <UnitSet>
+          <Unit>degC</Unit>
+        </UnitSet>
+        <ValidRange minInclusive="-40" maxInclusive="80"/>
+        <DefaultAlarm>
+          <StaticAlarmRanges>
+            <WarningRange minInclusive="15" maxInclusive="25"/>
+            <CriticalRange minInclusive="10" maxInclusive="30"/>
+          </StaticAlarmRanges>
+        </DefaultAlarm>
+      </FloatParameterType>
+
+      <FloatParameterType name="PM1_Float32" sizeInBits="32">
+        <UnitSet>
+          <Unit>µg/m3</Unit>
+        </UnitSet>
+        <ValidRange minInclusive="0" maxInclusive="5000"/>
+        <DefaultAlarm>
+          <StaticAlarmRanges>
+            <WarningRange minInclusive="2" maxInclusive="3"/>
+            <CriticalRange minInclusive="1" maxInclusive="5"/>
+          </StaticAlarmRanges>
+        </DefaultAlarm>
+      </FloatParameterType>
+
+      <FloatParameterType name="PM2_5_Float32" sizeInBits="32">
+        <UnitSet>
+          <Unit>µg/m3</Unit>
+        </UnitSet>
+        <ValidRange minInclusive="0" maxInclusive="5000"/>
+        <DefaultAlarm>
+          <StaticAlarmRanges>
+            <WarningRange minInclusive="6" maxInclusive="15"/>
+            <CriticalRange minInclusive="3" maxInclusive="25"/>
+          </StaticAlarmRanges>
+        </DefaultAlarm>
+      </FloatParameterType>
+
+      <FloatParameterType name="PM4_Float32" sizeInBits="32">
+        <UnitSet>
+          <Unit>µg/m3</Unit>
+        </UnitSet>
+        <ValidRange minInclusive="0" maxInclusive="5000"/>
+        <DefaultAlarm>
+          <StaticAlarmRanges>
+            <WarningRange minInclusive="15" maxInclusive="45"/>
+            <CriticalRange minInclusive="8" maxInclusive="60"/>
+          </StaticAlarmRanges>
+        </DefaultAlarm>
+      </FloatParameterType>
+
+      <FloatParameterType name="PM10_Float32" sizeInBits="32">
+        <UnitSet>
+          <Unit>µg/m3</Unit>
+        </UnitSet>
+        <ValidRange minInclusive="0" maxInclusive="5000"/>
+        <DefaultAlarm>
+          <StaticAlarmRanges>
+            <WarningRange minInclusive="15" maxInclusive="45"/>
+            <CriticalRange minInclusive="8" maxInclusive="60"/>
+          </StaticAlarmRanges>
+        </DefaultAlarm>
+      </FloatParameterType>
+
+    </ParameterTypeSet>
+
+    <ParameterSet>
+
+      <Parameter name="pressure_inside" parameterTypeRef="Pressure_Float32" shortDescription="Pressure inside habitat">
+        <LongDescription>Local (client-set) pressure reading inside. Confirm unit in your CSV/source (e.g. Pa, hPa, kPa) and adjust Pressure_Float32 UnitSet/ValidRange accordingly.</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="pressure_outside" parameterTypeRef="Pressure_Float32" shortDescription="Pressure outside habitat">
+        <LongDescription>Local (client-set) pressure reading outside. Confirm unit in your CSV/source (e.g. Pa, hPa, kPa) and adjust Pressure_Float32 UnitSet/ValidRange accordingly.</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="pressure_left_side" parameterTypeRef="Pressure_Float32" shortDescription="Pressure left side">
+        <LongDescription>Local (client-set) pressure reading from left-side sensor location.</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="pressure_right_side" parameterTypeRef="Pressure_Float32" shortDescription="Pressure right side">
+        <LongDescription>Local (client-set) pressure reading from right-side sensor location.</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+    </ParameterSet>
+
+    <ParameterSet>
+
+      <Parameter name="temperature" parameterTypeRef="Temperature_Float32" shortDescription="Temperature">
+        <LongDescription>Ambient temperature in degrees Celsius. Intended for local injection (CSV replay or live ingestion).</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="humidity" parameterTypeRef="RH_Float32" shortDescription="Relative humidity">
+        <LongDescription>Relative humidity (%RH). Intended for local injection (CSV replay or live ingestion). Typical physical range is 0–100 %RH.</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="co2" parameterTypeRef="CO2_UInt32" shortDescription="CO2 concentration">
+        <LongDescription>Carbon dioxide concentration in ppm. Often used as a ventilation proxy; interpretation depends on context (occupancy, ventilation strategy).</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="voc" parameterTypeRef="TVOC_Float32" shortDescription="tVOC concentration">
+        <LongDescription>Total Volatile Organic Compounds. Assumed unit: ppb (sensor-dependent). If your sensor outputs an index or mg/m3, update the UnitSet and consider renaming the parameter for clarity.</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="nox" parameterTypeRef="NOX_Float32" shortDescription="NOx concentration">
+        <LongDescription>NOx concentration. Assumed unit: ppb (often NO2-equivalent). If your sensor outputs a different representation (ppm, µg/m3, index), update the UnitSet and/or parameter naming accordingly.</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="pm1" parameterTypeRef="PM1_Float32" shortDescription="PM1 mass concentration">
+        <LongDescription>Particulate matter PM1 mass concentration in µg/m3 (mass per cubic metre).</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="pm2_5" parameterTypeRef="PM2_5_Float32" shortDescription="PM2.5 mass concentration">
+        <LongDescription>Particulate matter PM2.5 mass concentration in µg/m3 (mass per cubic metre).</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="pm4" parameterTypeRef="PM4_Float32" shortDescription="PM4 mass concentration">
+        <LongDescription>Particulate matter PM4 mass concentration in µg/m3 (mass per cubic metre).</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+      <Parameter name="pm10" parameterTypeRef="PM10_Float32" shortDescription="PM10 mass concentration">
+        <LongDescription>Particulate matter PM10 mass concentration in µg/m3 (mass per cubic metre).</LongDescription>
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+
+    </ParameterSet>
+
+    <ContainerSet>
+      <SequenceContainer name="root" abstract="false">
+        <EntryList>
+          <ParameterRefEntry parameterRef="pressure_inside"/>
+          <ParameterRefEntry parameterRef="pressure_outside"/>
+          <ParameterRefEntry parameterRef="pressure_left_side"/>
+          <ParameterRefEntry parameterRef="pressure_right_side"/>
+          <ParameterRefEntry parameterRef="temperature"/>
+          <ParameterRefEntry parameterRef="humidity"/>
+          <ParameterRefEntry parameterRef="co2"/>
+          <ParameterRefEntry parameterRef="voc"/>
+          <ParameterRefEntry parameterRef="nox"/>
+          <ParameterRefEntry parameterRef="pm1"/>
+          <ParameterRefEntry parameterRef="pm2_5"/>
+          <ParameterRefEntry parameterRef="pm4"/>
+          <ParameterRefEntry parameterRef="pm10"/>
+        </EntryList>
+      </SequenceContainer>
+    </ContainerSet>
+
+  </TelemetryMetaData>
+
+</SpaceSystem>
