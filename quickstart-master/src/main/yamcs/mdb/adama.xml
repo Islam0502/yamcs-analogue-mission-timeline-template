@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpaceSystem name="ADAMA"
+    xmlns="http://www.omg.org/spec/XTCE/20180204"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.omg.org/spec/XTCE/20180204 https://www.omg.org/spec/XTCE/20180204/SpaceSystem.xsd">
+
+  <TelemetryMetaData>
+
+    <ParameterTypeSet>
+      <FloatParameterType name="float32">
+        <FloatDataEncoding sizeInBits="32"/>
+      </FloatParameterType>
+    </ParameterTypeSet>
+
+    <ParameterSet>
+      <Parameter name="pressure_inside" parameterTypeRef="float32">
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+      <Parameter name="pressure_outside" parameterTypeRef="float32">
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+      <Parameter name="pressure_left_side" parameterTypeRef="float32">
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+      <Parameter name="pressure_right_side" parameterTypeRef="float32">
+        <ParameterProperties dataSource="local"/>
+      </Parameter>
+    </ParameterSet>
+
+    <ContainerSet>
+      <SequenceContainer name="root" abstract="false">
+        <EntryList>
+          <ParameterRefEntry parameterRef="pressure_inside"/>
+          <ParameterRefEntry parameterRef="pressure_outside"/>
+          <ParameterRefEntry parameterRef="pressure_left_side"/>
+          <ParameterRefEntry parameterRef="pressure_right_side"/>
+        </EntryList>
+      </SequenceContainer>
+    </ContainerSet>
+
+  </TelemetryMetaData>
+
+</SpaceSystem>
