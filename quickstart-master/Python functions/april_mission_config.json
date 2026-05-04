@@ -1,0 +1,473 @@
+{
+  "mission": {
+    "name": "Generic Analogue Mission",
+    "start_date": "2026-04-03",
+    "days": 3,
+    "timezone": "Europe/Amsterdam"
+  },
+  "crew": {
+    "lanes": [
+      {"lane": "COM", "role": "Commander"},
+      {"lane": "ENG", "role": "Engineer"},
+      {"lane": "SCI", "role": "Scientist"},
+      {"lane": "MCC", "role": "Mission Control"}
+    ]
+  },
+  "constraints": {
+    "recurring_blocks": [
+      {
+        "name": "On-site",
+        "start": "10:00",
+        "end": "12:00",
+        "participants": ["ALL"],
+        "days": "DAYS:0",
+        "priority": 100
+      },
+      {
+        "name": "Analogue Training by Marc, safety, and procedures",
+        "start": "12:00",
+        "end": "13:00",
+        "participants": ["ALL"],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "TRAINING"
+      },
+      {
+        "name": "YAMCS Training by Islam",
+        "start": "13:00",
+        "end": "14:00",
+        "participants": ["ALL"],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "TRAINING"
+      },
+      {
+        "name": "Mars Team Activity",
+        "start": "14:00",
+        "end": "17:00",
+        "participants": ["ALL"],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "TRAINING"
+      },
+      {
+        "name": "Set-up hab",
+        "start": "17:00",
+        "end": "18:00",
+        "participants": ["ALL"],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      },
+      {
+        "name": "Comms protocols",
+        "start": "19:00",
+        "end": "20:00",
+        "participants": ["MCC", "COM"],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "COMMS"
+      },
+      {
+        "name": "Spaceseed",
+        "start": "19:00",
+        "end": "20:00",
+        "participants": ["ENG", "SCI"],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "SCIENCE"
+      },
+      {
+        "name": "Sensors and suits",
+        "start": "20:00",
+        "end": "21:00",
+        "participants": ["ALL"],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "SYSTEMS"
+      },
+      {
+        "name": "Vitals + Breakfast + Daily prebrief + Sensors",
+        "start": "08:00",
+        "end": "09:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "MEAL"
+      },
+      {
+        "name": "Vitals + Lunch",
+        "start": "13:00",
+        "end": "14:00",
+        "participants": ["ALL"],
+        "days": "DAYS:1,2",
+        "priority": 100,
+        "kind": "MEAL"
+      },
+      {
+        "name": "Dinner",
+        "start": "18:00",
+        "end": "19:00",
+        "participants": ["ALL"],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "MEAL"
+      },
+      {
+        "name": "Vitals + Dinner + Daily Debrief",
+        "start": "18:00",
+        "end": "19:00",
+        "participants": ["ALL"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "MEAL"
+      },
+      {
+        "name": "Remote",
+        "start": "21:00",
+        "end": "09:00",
+        "participants": ["ALL"],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "On-site",
+        "start": "09:00",
+        "end": "22:00",
+        "participants": ["MCC"],
+        "days": "DAYS:1",
+        "priority": 10,
+        "kind": "MISSION_CONTROL"
+      },
+      {
+        "name": "Sensor protocol",
+        "start": "09:00",
+        "end": "10:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "SYSTEMS"
+      },
+      {
+        "name": "Comm test",
+        "start": "10:00",
+        "end": "11:00",
+        "participants": ["MCC"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "COMMS"
+      },
+      {
+        "name": "Comm test/vigi",
+        "start": "10:00",
+        "end": "11:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "COMMS"
+      },
+      {
+        "name": "Socials",
+        "start": "11:00",
+        "end": "12:00",
+        "participants": ["COM","MCC"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "SYSTEMS"
+      },
+      {
+        "name": "ABCDEF",
+        "start": "11:00",
+        "end": "12:00",
+        "participants": ["ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "SCIENCE"
+      },
+      {
+        "name": "Suit check/repair",
+        "start": "12:00",
+        "end": "13:00",
+        "participants": ["ALL"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      },
+      {
+        "name": "Cameras/server",
+        "start": "14:00",
+        "end": "15:00",
+        "participants": ["ALL"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "SYSTEMS"
+      },
+      {
+        "name": "Final prep",
+        "start": "15:00",
+        "end": "16:00",
+        "participants": ["MCC"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      },
+      {
+        "name": "Sensors",
+        "start": "15:00",
+        "end": "16:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "SYSTEMS"
+      },
+      {
+        "name": "T-0",
+        "start": "15:30",
+        "end": "15:40",
+        "participants": ["ALL"],
+        "days": "DAYS:1",
+        "priority": 1000,
+        "kind": "MISSION_MARKER"
+      },
+      {
+        "name": "Set-up inside",
+        "start": "15:30",
+        "end": "17:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      },
+      {
+        "name": "Surveys on hab",
+        "start": "17:00",
+        "end": "18:00",
+        "participants": ["ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "SCIENCE"
+      },
+      {
+        "name": "Comm test",
+        "start": "17:00",
+        "end": "18:00",
+        "participants": ["COM"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "COMMS"
+      },
+      {
+        "name": "MCC Live contact",
+        "start": "19:00",
+        "end": "20:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "MISSION_CONTROL"
+      },
+      {
+        "name": "Relax time",
+        "start": "20:00",
+        "end": "22:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 10,
+        "kind": "REST"
+      },
+      {
+        "name": "Remote",
+        "start": "22:00",
+        "end": "09:00",
+        "participants": ["MCC"],
+        "days": "DAYS:1",
+        "priority": 10,
+        "kind": "REST"
+      },
+      {
+        "name": "Before bed survey + daily diary + daily report",
+        "start": "21:30",
+        "end": "22:00",
+        "participants": ["ALL"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "SCIENCE"
+      },
+      {
+        "name": "Going offline/vigi",
+        "start": "22:00",
+        "end": "23:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "Offline",
+        "start": "23:00",
+        "end": "07:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "Offline -> Wake",
+        "start": "07:00",
+        "end": "08:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "On-site",
+        "start": "09:00",
+        "end": "16:30",
+        "participants": ["MCC"],
+        "days": "DAYS:2",
+        "priority": 10,
+        "kind": "MISSION_CONTROL"
+      },
+      {
+        "name": "MCC Live contact",
+        "start": "09:00",
+        "end": "10:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "MISSION_CONTROL"
+      },
+      {
+        "name": "Sensors",
+        "start": "10:00",
+        "end": "11:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "SYSTEMS"
+      },
+      {
+        "name": "Socials",
+        "start": "11:00",
+        "end": "12:00",
+        "participants": ["COM"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "SYSTEMS"
+      },
+      {
+        "name": "ABCDEF",
+        "start": "11:00",
+        "end": "12:00",
+        "participants": ["ENG", "SCI"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "SYSTEMS"
+      },
+      {
+        "name": "Surveys on hab",
+        "start": "12:00",
+        "end": "13:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "SCIENCE"
+      },
+      {
+        "name": "Spaceseed/vigi",
+        "start": "14:00",
+        "end": "15:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "SCIENCE"
+      },
+      {
+        "name": "IVA",
+        "start": "15:00",
+        "end": "16:00",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      },
+      {
+        "name": "Wrap-up/clean",
+        "start": "16:00",
+        "end": "16:30",
+        "participants": ["COM", "ENG", "SCI"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      },
+      {
+        "name": "EOM",
+        "start": "16:20",
+        "end": "16:30",
+        "participants": ["ALL"],
+        "days": "DAYS:2",
+        "priority": 1000,
+        "kind": "MISSION_MARKER"
+      },
+      {
+        "name": "PMD",
+        "start": "16:30",
+        "end": "17:30",
+        "participants": ["ALL"],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      }
+    ]
+  },
+  "activities": [],
+
+  "styles": {
+    "kinds": {
+      "MEAL": {
+        "item_background_color": "#D9C29C",
+        "item_border_color": "#A88E5B"
+      },
+      "TRAINING": {
+        "item_background_color": "#CFE2F3",
+        "item_border_color": "#6D9EEB"
+      },
+      "SCIENCE": {
+        "item_background_color": "#D9EAD3",
+        "item_border_color": "#6AA84F"
+      },
+      "COMMS": {
+        "item_background_color": "#F4CCCC",
+        "item_border_color": "#CC0000"
+      },
+      "SYSTEMS": {
+        "item_background_color": "#D0E0E3",
+        "item_border_color": "#45818E"
+      },
+      "MISSION_CONTROL": {
+        "item_background_color": "#FFF2CC",
+        "item_border_color": "#BF9000"
+      },
+      "REST": {
+        "item_background_color": "#EAD1DC",
+        "item_border_color": "#A64D79"
+      },
+      "MISSION_MARKER": {
+        "item_background_color": "#FCE5CD",
+        "item_border_color": "#E69138"
+      },
+      "OPERATIONS": {
+        "item_background_color": "#C9DAF8",
+        "item_border_color": "#3C78D8"
+      }
+    }
+  },
+  "options": {
+    "use_cpsat": true,
+    "slot_minutes": 10
+  },
+  "yamcs": {
+    "source": "rdb"
+  }
+}
