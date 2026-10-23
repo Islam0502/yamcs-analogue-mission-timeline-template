@@ -14,9 +14,9 @@ import requests
 YAMCS_URL = "http://localhost:8090"
 INSTANCE = "adama"
 PROCESSOR = "realtime"
-AUTH = ("admin", "admin")
+AUTH = ("<YAMCS_USERNAME>", "<YAMCS_PASSWORD>")
 
-CSV_GLOB = r"C:\Users\39389\OneDrive\Desktop\TU Delft\Internship\ICEE.Space\quickstart-master\data\*.csv"
+CSV_GLOB = = r"<PROJECT_DIR>/quickstart-master/data/*.csv"
 DELIMITER = ";"
 ENCODING = "utf-8-sig"
 BATCH_SIZE = 200
