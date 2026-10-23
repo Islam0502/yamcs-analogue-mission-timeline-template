@@ -37,8 +37,8 @@
         <ValidRange minInclusive="0" maxInclusive="100000"/>
         <DefaultAlarm>
           <StaticAlarmRanges>
-            <WarningRange minInclusive="500" maxInclusive="1800"/>
-            <CriticalRange minInclusive="400" maxInclusive="2500"/>
+            <WarningRange maxInclusive="1800"/>
+            <CriticalRange maxInclusive="2500"/>
           </StaticAlarmRanges>
         </DefaultAlarm>
       </IntegerParameterType>
@@ -79,8 +79,8 @@
         <ValidRange minInclusive="0" maxInclusive="5000"/>
         <DefaultAlarm>
           <StaticAlarmRanges>
-            <WarningRange minInclusive="2" maxInclusive="3"/>
-            <CriticalRange minInclusive="1" maxInclusive="5"/>
+            <WarningRange maxInclusive="15"/>
+            <CriticalRange maxInclusive="25"/>
           </StaticAlarmRanges>
         </DefaultAlarm>
       </FloatParameterType>
@@ -92,8 +92,8 @@
         <ValidRange minInclusive="0" maxInclusive="5000"/>
         <DefaultAlarm>
           <StaticAlarmRanges>
-            <WarningRange minInclusive="6" maxInclusive="15"/>
-            <CriticalRange minInclusive="3" maxInclusive="25"/>
+            <WarningRange maxInclusive="15"/>
+            <CriticalRange maxInclusive="25"/>
           </StaticAlarmRanges>
         </DefaultAlarm>
       </FloatParameterType>
@@ -105,8 +105,8 @@
         <ValidRange minInclusive="0" maxInclusive="5000"/>
         <DefaultAlarm>
           <StaticAlarmRanges>
-            <WarningRange minInclusive="15" maxInclusive="45"/>
-            <CriticalRange minInclusive="8" maxInclusive="60"/>
+            <WarningRange maxInclusive="45"/>
+            <CriticalRange maxInclusive="60"/>
           </StaticAlarmRanges>
         </DefaultAlarm>
       </FloatParameterType>
@@ -118,8 +118,8 @@
         <ValidRange minInclusive="0" maxInclusive="5000"/>
         <DefaultAlarm>
           <StaticAlarmRanges>
-            <WarningRange minInclusive="15" maxInclusive="45"/>
-            <CriticalRange minInclusive="8" maxInclusive="60"/>
+            <WarningRange maxInclusive="45"/>
+            <CriticalRange maxInclusive="60"/>
           </StaticAlarmRanges>
         </DefaultAlarm>
       </FloatParameterType>
