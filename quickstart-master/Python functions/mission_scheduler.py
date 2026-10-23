@@ -77,6 +77,7 @@ class RecurringBlock:
     days: str = "DAILY"
     description: str = ""
     priority: int = 100
+    kind: Optional[str] = None
 
 
 @dataclass(frozen=True)
@@ -92,6 +93,8 @@ class ActivityRequest:
     relax_after_min: Optional[int] = None
     description: str = ""
     tags_extra: List[str] = field(default_factory=list)
+    fixed: bool = False
+    after: Optional[str] = None  # name of an activity that must end before this one starts
 
 
 @dataclass(frozen=True)
@@ -183,6 +186,8 @@ def preprocess_fixed_blocks(
                 windows=[{"from": block.start_hhmm, "to": block.end_hhmm}],
                 type="EVENT",
                 description=block.description,
+                kind=block.kind,
+                fixed=True,
             )
             occurrences.append((block.priority, index, start_slot, end_slot, lanes_for_block, req))
 
@@ -268,6 +273,7 @@ def greedy_schedule(
                             d * day_slots + slotify(w.end_minute, slot_minutes)))
         return out
 
+    placed_ends: Dict[str, List[int]] = {}
     for req in requests:
         lanes_for_req = participants_to_lanes(req.participants, lanes)
         dur_min = slotify(req.duration_min, slot_minutes)
@@ -275,13 +281,20 @@ def greedy_schedule(
             raise ValueError(f"Invalid duration for {req.name}")
         windows = candidate_windows_for(req)
 
+        earliest = 0
+        if req.after:
+            if req.after not in placed_ends:
+                raise RuntimeError(f"'{req.name}' must come after '{req.after}', which is listed later or does not exist")
+            earliest = max(placed_ends[req.after])
+
         placed = False
         for (wstart, wend) in windows:
-            t = wstart
+            t = max(wstart, earliest)
             while t + dur_min <= wend and t + dur_min <= horizon_slots:
                 if is_free(lanes_for_req, t, dur_min):
                     add_occupied(lanes_for_req, t, dur_min)
                     scheduled.append(ScheduledActivity(req, t, dur_min, lanes_for_req))
+                    placed_ends.setdefault(req.name, []).append(t + dur_min)
                     placed = True
 
                     if req.kind and req.kind.upper() == "EVA":
@@ -411,8 +424,14 @@ def cpsat_schedule(
 
         scheduled_vars.append((req, start_var, end_var, dur_var, lanes_for_req, window_bools))
 
-    for ln, intervals in lane_intervals.items():
-        add_no_overlap(intervals)
+    # Precedence: an activity with "after" starts only when every activity with that name has ended.
+    for (req, start_var, _end, _dur, _lanes, _wb) in scheduled_vars:
+        if req.after:
+            preds = [v for v in scheduled_vars if v[0].name == req.after]
+            if not preds:
+                raise ValueError(f"Activity '{req.name}' refers to unknown activity '{req.after}' in 'after'")
+            for pred in preds:
+                add(start_var >= pred[2])
 
     relax_vars: List[Tuple[ActivityRequest, Any, int, List[str]]] = []
     for idx, (req, start_var, end_var, dur_var, lanes_for_req, window_bools) in enumerate(scheduled_vars):
@@ -435,6 +454,10 @@ def cpsat_schedule(
             )
             relax_vars.append((relax_req, r_start, relax_slots, lanes_for_req))
 
+    # No-overlap per lane is added after the EVA rest intervals, so that they are included as well.
+    for ln, intervals in lane_intervals.items():
+        add_no_overlap(intervals)
+
     terms: List[Any] = []
     for (_req, start_var, _end_var, _dur_var, _lanes_for_req, window_bools) in scheduled_vars:
         for (b, w) in window_bools:
@@ -454,6 +477,20 @@ def cpsat_schedule(
     if status not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
         raise RuntimeError(f"No feasible schedule found. Solver status={status}")
 
+    def solver_call(snake: str, camel: str, *args):
+        # Newer OR-Tools versions expose some values as properties, older ones as methods.
+        attr = getattr(solver, snake, None)
+        if attr is None:
+            attr = getattr(solver, camel)
+        return attr(*args) if callable(attr) else attr
+
+    print(
+        f"[CP-SAT] status={solver_call('status_name', 'StatusName', status)}, "
+        f"objective={solver_call('objective_value', 'ObjectiveValue'):.0f}, "
+        f"best bound={solver_call('best_objective_bound', 'BestObjectiveBound'):.0f}, "
+        f"wall time={solver_call('wall_time', 'WallTime'):.2f} s"
+    )
+
     out: List[ScheduledActivity] = []
     out.extend(fixed_items_for_output)
 
@@ -470,6 +507,53 @@ def cpsat_schedule(
     return out
 
 
+STYLE_KEY_MAP = {
+    "item_background_color": "backgroundColor",
+    "item_border_color": "borderColor",
+    "item_border_width": "borderWidth",
+    "item_corner_radius": "cornerRadius",
+    "item_margin_left": "marginLeft",
+    "item_text_color": "textColor",
+    "item_text_size": "textSize",
+}
+
+
+def style_properties(kind: Optional[str], styles: Optional[Dict[str, Dict[str, Any]]]) -> Dict[str, str]:
+    """Translate the style of an activity kind from the configuration into Yamcs item properties."""
+    if not kind or not styles:
+        return {}
+    style = styles.get(kind) or styles.get(str(kind).upper())
+    if not style:
+        return {}
+    props: Dict[str, str] = {}
+    for key, value in style.items():
+        yamcs_key = STYLE_KEY_MAP.get(key, key)  # camelCase Yamcs keys are accepted as well
+        if yamcs_key in STYLE_KEY_MAP.values():
+            props[yamcs_key] = str(value)
+    return props
+
+
+def schedule_objective(scheduled: List[ScheduledActivity], slot_minutes: int) -> Tuple[int, int]:
+    """Same objective as the CP-SAT model: sum of start slots plus 10,000 per activity in a window starting at or after 20:00.
+    Returns (number of flexible activities, objective value), so that CP-SAT and greedy results can be compared."""
+    day_slots = slotify(24 * 60, slot_minutes)
+    evening = slotify(parse_hhmm("20:00"), slot_minutes)
+    count, value = 0, 0
+    for sa in scheduled:
+        if sa.activity.fixed or sa.activity.name == "Relax time":
+            continue
+        count += 1
+        value += sa.start_slot
+        windows = [TimeWindow(parse_hhmm(w["from"]), parse_hhmm(w["to"])) for w in sa.activity.windows] if sa.activity.windows else build_default_windows()
+        start_in_day = sa.start_slot % day_slots
+        for w in windows:
+            if slotify(w.start_minute, slot_minutes) <= start_in_day < slotify(w.end_minute, slot_minutes):
+                if w.start_minute >= parse_hhmm("20:00"):
+                    value += 10 * 1000
+                break
+    return count, value
+
+
 def scheduled_to_yamcs_items(
     *,
     scheduled: List[ScheduledActivity],
@@ -477,6 +561,7 @@ def scheduled_to_yamcs_items(
     timezone: str,
     slot_minutes: int,
     source: str = "rdb",
+    styles: Optional[Dict[str, Dict[str, Any]]] = None,
 ) -> List[Dict[str, Any]]:
     tzinfo = ensure_tzinfo(timezone)
     out: List[Dict[str, Any]] = []
@@ -501,6 +586,11 @@ def scheduled_to_yamcs_items(
                     "timezone": str(timezone),
                 },
             }
+            kind = sa.activity.kind
+            if kind:
+                item["properties"]["kind"] = str(kind)
+            item["properties"]["placement"] = "fixed" if sa.activity.fixed else "flexible"
+            item["properties"].update(style_properties(kind, styles))
             out.append(item)
 
     out.sort(key=lambda x: (x["start"], x["name"], x["properties"].get("lane", "")))
@@ -511,6 +601,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", required=True, help="Path to mission_config.json")
     ap.add_argument("--out", required=True, help="Path to write Yamcs timeline-items JSON")
+    ap.add_argument("--solver", choices=["config", "cpsat", "greedy"], default="config",
+                    help="Scheduling method: as in the configuration (default), CP-SAT, or greedy (for comparison)")
     args = ap.parse_args()
 
     cfg = json.load(open(args.config, "r", encoding="utf-8"))
@@ -537,6 +629,7 @@ def main() -> int:
             days=b.get("days", "DAILY"),
             description=b.get("description", ""),
             priority=int(b.get("priority", 100)),
+            kind=b.get("kind"),
         )
         for b in blocks_cfg
     ]
@@ -553,14 +646,19 @@ def main() -> int:
             windows=a.get("windows"),
             relax_after_min=int(a["relax_after_min"]) if "relax_after_min" in a else None,
             description=a.get("description", ""),
+            after=a.get("after"),
         )
         for a in activities_cfg
     ]
 
     use_cpsat = bool(cfg.get("options", {}).get("use_cpsat", True))
+    if args.solver != "config":
+        use_cpsat = args.solver == "cpsat"
+    styles = cfg.get("styles", {}).get("kinds", {})
     time_limit_s = int(cfg.get("options", {}).get("time_limit_s", 20))
     source = cfg.get("yamcs", {}).get("source", "rdb")
 
+    method = "CP-SAT" if use_cpsat else "greedy"
     if use_cpsat:
         try:
             scheduled = cpsat_schedule(
@@ -574,6 +672,7 @@ def main() -> int:
         except Exception as e:
             print(f"[WARN] CP-SAT scheduling failed: {e}")
             print("[WARN] Falling back to greedy scheduling.")
+            method = "greedy (fallback)"
             scheduled = greedy_schedule(
                 mission_days=days,
                 slot_minutes=slot_minutes,
@@ -582,13 +681,20 @@ def main() -> int:
                 requests=requests,
             )
     else:
-        scheduled = greedy_schedule(
-            mission_days=days,
-            slot_minutes=slot_minutes,
-            lanes=lanes,
-            fixed_blocks=fixed_blocks,
-            requests=requests,
-        )
+        try:
+            scheduled = greedy_schedule(
+                mission_days=days,
+                slot_minutes=slot_minutes,
+                lanes=lanes,
+                fixed_blocks=fixed_blocks,
+                requests=requests,
+            )
+        except RuntimeError as e:
+            print(f"[RESULT] method=greedy: no complete schedule found ({e})")
+            return 1
+
+    n_flex, objective = schedule_objective(scheduled, slot_minutes)
+    print(f"[RESULT] method={method}, flexible activities placed={n_flex}/{len(requests)}, objective={objective}")
 
     items = scheduled_to_yamcs_items(
         scheduled=scheduled,
@@ -596,6 +702,7 @@ def main() -> int:
         timezone=tz,
         slot_minutes=slot_minutes,
         source=source,
+        styles=styles,
     )
 
     with open(args.out, "w", encoding="utf-8") as f:
@@ -607,3 +714,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
