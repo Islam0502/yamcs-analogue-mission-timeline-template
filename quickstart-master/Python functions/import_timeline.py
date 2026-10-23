@@ -8,8 +8,8 @@ from requests.auth import HTTPBasicAuth
 YAMCS_URL = "http://localhost:8090"
 INSTANCE = "general"
 
-USERNAME = "admin"
-PASSWORD = "admin"
+USERNAME = "<YAMCS_USERNAME>"
+PASSWORD = "<YAMCS_PASSWORD>"
 
 # 👉 PUT FULL PATH HERE IF NEEDED
 INPUT_FILE = "timeline_items.json"
