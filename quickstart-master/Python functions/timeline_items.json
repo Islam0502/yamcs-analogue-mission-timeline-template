@@ -1,0 +1,2274 @@
+[
+  {
+    "source": "rdb",
+    "id": "f9da79c5-3a05-43d3-ac37-c8eab56dc9fa",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T10:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "577663cc-3d3a-4b43-b522-eb431cbb230d",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T10:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b085258c-4bbd-42d2-9519-eff03f4f0b4e",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T10:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "205d3a45-02ec-4939-9c72-2671f27061e4",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T10:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "86ceb0d9-a2e0-4b57-b6f6-6274f8cd0028",
+    "name": "Analogue Training by Marc, safety, and procedures",
+    "type": "EVENT",
+    "start": "2026-04-03T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d85ff87d-7aa5-47bb-95fb-ec68e0a86b15",
+    "name": "Analogue Training by Marc, safety, and procedures",
+    "type": "EVENT",
+    "start": "2026-04-03T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "14cab756-0257-4a39-9f67-235229b6e43e",
+    "name": "Analogue Training by Marc, safety, and procedures",
+    "type": "EVENT",
+    "start": "2026-04-03T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c52957a6-6ef4-452a-9586-eac3c88235e8",
+    "name": "Analogue Training by Marc, safety, and procedures",
+    "type": "EVENT",
+    "start": "2026-04-03T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "29bf2319-6169-40a2-80f3-30188a562b49",
+    "name": "YAMCS Training by Islam",
+    "type": "EVENT",
+    "start": "2026-04-03T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d16c18cd-76fc-4f6a-980a-f29f6d477263",
+    "name": "YAMCS Training by Islam",
+    "type": "EVENT",
+    "start": "2026-04-03T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "6a3dbac6-3bef-4585-b309-9b2577c1de3b",
+    "name": "YAMCS Training by Islam",
+    "type": "EVENT",
+    "start": "2026-04-03T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5aa2a80f-883b-49ec-9c44-107785abee37",
+    "name": "YAMCS Training by Islam",
+    "type": "EVENT",
+    "start": "2026-04-03T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ec907ab0-859d-4fed-a3ed-8701b62e540d",
+    "name": "Mars Team Activity",
+    "type": "EVENT",
+    "start": "2026-04-03T14:00:00+00:00",
+    "duration": "10800s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ec27e6de-b4a4-4387-881d-452a89c34a56",
+    "name": "Mars Team Activity",
+    "type": "EVENT",
+    "start": "2026-04-03T14:00:00+00:00",
+    "duration": "10800s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0859a63b-51b9-4e39-a9bc-739fcba17e14",
+    "name": "Mars Team Activity",
+    "type": "EVENT",
+    "start": "2026-04-03T14:00:00+00:00",
+    "duration": "10800s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "4387d6a2-9a47-4347-9d35-8118c46764ef",
+    "name": "Mars Team Activity",
+    "type": "EVENT",
+    "start": "2026-04-03T14:00:00+00:00",
+    "duration": "10800s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "7a80a054-22f1-401c-9917-1124bfec0a8a",
+    "name": "Set-up hab",
+    "type": "EVENT",
+    "start": "2026-04-03T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "a1f37050-e909-44c4-8abc-a4e5e7d34219",
+    "name": "Set-up hab",
+    "type": "EVENT",
+    "start": "2026-04-03T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "6be62d74-90de-4d7c-8cdd-d161395a9fbe",
+    "name": "Set-up hab",
+    "type": "EVENT",
+    "start": "2026-04-03T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "4c91b487-823a-4aa9-ac27-537817a71106",
+    "name": "Set-up hab",
+    "type": "EVENT",
+    "start": "2026-04-03T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "2e91e813-6cf3-4e66-a4aa-bbb1dcc0edaa",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-03T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "bdcebd16-998b-439f-b060-0cd4dc69b9c3",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-03T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "22311141-447d-4b22-9188-73298bb70240",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-03T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f2a6dce3-6e81-4f5d-a28d-1fa75bc38f58",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-03T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "067681ec-fc41-4cbe-b747-d60ddecc5752",
+    "name": "Comms protocols",
+    "type": "EVENT",
+    "start": "2026-04-03T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fffdefe7-c986-405a-8e75-967649fb12e5",
+    "name": "Comms protocols",
+    "type": "EVENT",
+    "start": "2026-04-03T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "86a17a18-1c85-4aaa-916e-6de247122d0a",
+    "name": "Spaceseed",
+    "type": "EVENT",
+    "start": "2026-04-03T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "7f01407b-b27d-41d6-8f2f-b5520d123d0f",
+    "name": "Spaceseed",
+    "type": "EVENT",
+    "start": "2026-04-03T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "da7c89d0-7724-4e73-afb4-d520f2d7ac3d",
+    "name": "Sensors and suits",
+    "type": "EVENT",
+    "start": "2026-04-03T20:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "df057b5c-fb37-4808-ab0b-23e5a9682f68",
+    "name": "Sensors and suits",
+    "type": "EVENT",
+    "start": "2026-04-03T20:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5075f83c-651b-4c78-b121-80429cc296a6",
+    "name": "Sensors and suits",
+    "type": "EVENT",
+    "start": "2026-04-03T20:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "af181c06-c51e-4869-84c6-1637064ce41d",
+    "name": "Sensors and suits",
+    "type": "EVENT",
+    "start": "2026-04-03T20:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9500dc75-b347-42be-a044-55a1361daaf0",
+    "name": "Remote",
+    "type": "EVENT",
+    "start": "2026-04-03T21:00:00+00:00",
+    "duration": "43200s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "de2d08a3-bbc7-4b8b-962a-4e0dcfbf32cd",
+    "name": "Remote",
+    "type": "EVENT",
+    "start": "2026-04-03T21:00:00+00:00",
+    "duration": "43200s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fe369007-4b77-4bbc-806c-d6b62285a42b",
+    "name": "Remote",
+    "type": "EVENT",
+    "start": "2026-04-03T21:00:00+00:00",
+    "duration": "43200s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5076fc16-e77f-400d-8fe7-98483d0443c1",
+    "name": "Remote",
+    "type": "EVENT",
+    "start": "2026-04-03T21:00:00+00:00",
+    "duration": "43200s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f2d087c6-ee84-48b5-873c-e6c2ef6adb86",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-04T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "2fec6fdd-77dd-4e57-8f9f-fdb83fa1ff1b",
+    "name": "Sensor protocol",
+    "type": "EVENT",
+    "start": "2026-04-04T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "8e31f252-cd32-4515-83ac-a724cdfdcee2",
+    "name": "Sensor protocol",
+    "type": "EVENT",
+    "start": "2026-04-04T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "085b9642-ba9e-4711-a689-81cf7378949b",
+    "name": "Sensor protocol",
+    "type": "EVENT",
+    "start": "2026-04-04T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "3adc7593-589d-4786-a812-e555d257372c",
+    "name": "Comm test",
+    "type": "EVENT",
+    "start": "2026-04-04T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "23002d59-e22b-42a5-b41c-1cbe1339edc3",
+    "name": "Comm test/vigi",
+    "type": "EVENT",
+    "start": "2026-04-04T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c95f3b9b-9faa-4cfe-8195-1ea7e3370fac",
+    "name": "Comm test/vigi",
+    "type": "EVENT",
+    "start": "2026-04-04T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "2c738c69-ffc0-4d7d-b450-a3a01d69e001",
+    "name": "Comm test/vigi",
+    "type": "EVENT",
+    "start": "2026-04-04T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c0a2e351-88d1-4d47-9e59-5c50f9464bfd",
+    "name": "ABCDEF",
+    "type": "EVENT",
+    "start": "2026-04-04T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f543b48b-a59b-496f-b799-3a0f22c2786c",
+    "name": "ABCDEF",
+    "type": "EVENT",
+    "start": "2026-04-04T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "a2815678-8da1-4dc1-bf04-97cb52444107",
+    "name": "Socials",
+    "type": "EVENT",
+    "start": "2026-04-04T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "a86afbc2-94c3-4dbc-a6ac-df4bfddab92b",
+    "name": "Socials",
+    "type": "EVENT",
+    "start": "2026-04-04T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f91183a4-d221-465b-8892-28f7db02d134",
+    "name": "Suit check/repair",
+    "type": "EVENT",
+    "start": "2026-04-04T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d9d2c7e4-bef8-44dd-a584-3363bcd01fc0",
+    "name": "Suit check/repair",
+    "type": "EVENT",
+    "start": "2026-04-04T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "3a727f49-4d21-450c-a526-b0ed1d8d7355",
+    "name": "Suit check/repair",
+    "type": "EVENT",
+    "start": "2026-04-04T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "a43f6f71-ff2e-43df-8f10-51c3dcf8f386",
+    "name": "Suit check/repair",
+    "type": "EVENT",
+    "start": "2026-04-04T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "e4fc12b4-10c5-4dff-b45f-6d83d314a4e7",
+    "name": "Vitals + Lunch",
+    "type": "EVENT",
+    "start": "2026-04-04T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "22e3d80a-0ba3-455c-8763-9b1ecdefe0d9",
+    "name": "Vitals + Lunch",
+    "type": "EVENT",
+    "start": "2026-04-04T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ed1616f4-e1bb-4df7-94b4-9f004d1492cf",
+    "name": "Vitals + Lunch",
+    "type": "EVENT",
+    "start": "2026-04-04T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0b9ee1c6-7032-4e6d-bd49-009ac8ce61f6",
+    "name": "Vitals + Lunch",
+    "type": "EVENT",
+    "start": "2026-04-04T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "1d2a9e25-ee26-43cb-8f3a-0262ed74701a",
+    "name": "Cameras/server",
+    "type": "EVENT",
+    "start": "2026-04-04T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "258ee1b4-7378-47d9-845c-c14cef986dac",
+    "name": "Cameras/server",
+    "type": "EVENT",
+    "start": "2026-04-04T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "6fb8bc13-23ed-4987-9553-14aabff42dfe",
+    "name": "Cameras/server",
+    "type": "EVENT",
+    "start": "2026-04-04T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "bf90a924-3d90-4a28-83cc-3b343103883d",
+    "name": "Cameras/server",
+    "type": "EVENT",
+    "start": "2026-04-04T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c64babd8-b183-40dc-825e-085507b0074f",
+    "name": "Final prep",
+    "type": "EVENT",
+    "start": "2026-04-04T15:00:00+00:00",
+    "duration": "1800s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "33fc0f11-ca68-4d42-a6ec-ce4f1a80a3a0",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-04T15:00:00+00:00",
+    "duration": "1800s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d176e941-161b-4036-bbb0-7bc97ed100e1",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-04T15:00:00+00:00",
+    "duration": "1800s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f2b9a58b-abe5-4ad2-ba6c-acbb28b6597a",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-04T15:00:00+00:00",
+    "duration": "1800s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "a8af0a19-44da-4e54-b3bc-6c8aac296734",
+    "name": "T-0",
+    "type": "EVENT",
+    "start": "2026-04-04T15:30:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "1e5fd840-ad51-4ea6-8e2d-3bc009fbfdc1",
+    "name": "T-0",
+    "type": "EVENT",
+    "start": "2026-04-04T15:30:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9f7656f5-c2dc-4548-8dc9-fdb43724e75a",
+    "name": "T-0",
+    "type": "EVENT",
+    "start": "2026-04-04T15:30:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "6d3b51b2-e165-4f6e-a0d0-a9d5b7bebfab",
+    "name": "T-0",
+    "type": "EVENT",
+    "start": "2026-04-04T15:30:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fff9a607-1535-4e4e-81d1-3e3aeb0c4239",
+    "name": "Final prep",
+    "type": "EVENT",
+    "start": "2026-04-04T15:40:00+00:00",
+    "duration": "1200s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "2a51e56f-eded-48cc-9204-35587cff0e0c",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-04T15:40:00+00:00",
+    "duration": "1200s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b07692ef-3615-4096-a471-ce6c9c755dfd",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-04T15:40:00+00:00",
+    "duration": "1200s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "32646090-3957-47ba-802f-c16478905d70",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-04T15:40:00+00:00",
+    "duration": "1200s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "bb4258d4-6dd8-451c-9176-e41651a899e3",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-04T16:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "aabe1cb8-961f-4476-a031-ad5aeb169ef0",
+    "name": "Set-up inside",
+    "type": "EVENT",
+    "start": "2026-04-04T16:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "22448e55-2e60-41bb-a7c8-7546aa5a19e1",
+    "name": "Set-up inside",
+    "type": "EVENT",
+    "start": "2026-04-04T16:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "99b9536c-d033-4d1a-a265-235eaf8f06ef",
+    "name": "Set-up inside",
+    "type": "EVENT",
+    "start": "2026-04-04T16:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f4aa2cfe-83f8-497b-8712-1ad20eaf94f8",
+    "name": "Comm test",
+    "type": "EVENT",
+    "start": "2026-04-04T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "4d2fb21f-4acf-44ed-bb20-253509945217",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-04T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fdb969ba-9d2a-46b0-8daa-c0e2a9a3329b",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-04T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f050e50b-53a5-4d50-ba74-02192e198554",
+    "name": "Vitals + Dinner + Daily Debrief",
+    "type": "EVENT",
+    "start": "2026-04-04T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5b136b0f-8553-42e6-823a-69df05649a0f",
+    "name": "Vitals + Dinner + Daily Debrief",
+    "type": "EVENT",
+    "start": "2026-04-04T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "a1084c18-b65f-4fad-bdcb-4f7b2eb8e247",
+    "name": "Vitals + Dinner + Daily Debrief",
+    "type": "EVENT",
+    "start": "2026-04-04T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "21c10119-a1f9-4083-82fa-53a76427e031",
+    "name": "Vitals + Dinner + Daily Debrief",
+    "type": "EVENT",
+    "start": "2026-04-04T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "4529358f-0558-4cdf-a9b3-7acd1fb490f4",
+    "name": "MCC Live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "353193f0-b91c-4eb2-935c-afb7b47607a0",
+    "name": "MCC Live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "6ee40955-1745-4b4b-8193-f45cb92762d6",
+    "name": "MCC Live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "528aa9ea-c040-4b22-87cc-cc13e219bfa7",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-04T19:00:00+00:00",
+    "duration": "9000s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "eda9e58a-f963-4708-9b61-5a0d501d57fd",
+    "name": "Relax time",
+    "type": "EVENT",
+    "start": "2026-04-04T20:00:00+00:00",
+    "duration": "5400s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ca62f9e0-f055-4eef-8801-bfdfd87149e8",
+    "name": "Relax time",
+    "type": "EVENT",
+    "start": "2026-04-04T20:00:00+00:00",
+    "duration": "5400s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "099edc11-153d-4df6-a274-1b7e84ea8c90",
+    "name": "Relax time",
+    "type": "EVENT",
+    "start": "2026-04-04T20:00:00+00:00",
+    "duration": "5400s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9658a886-1a93-4401-9323-8b8404dd5960",
+    "name": "Before bed survey + daily diary + daily report",
+    "type": "EVENT",
+    "start": "2026-04-04T21:30:00+00:00",
+    "duration": "1800s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "570a5f79-2954-45ba-bb90-3444400f336b",
+    "name": "Before bed survey + daily diary + daily report",
+    "type": "EVENT",
+    "start": "2026-04-04T21:30:00+00:00",
+    "duration": "1800s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "07f0d7c3-d558-40f2-808c-d886062d4d0b",
+    "name": "Before bed survey + daily diary + daily report",
+    "type": "EVENT",
+    "start": "2026-04-04T21:30:00+00:00",
+    "duration": "1800s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "640e8bbb-4758-4377-b184-e458c6b50cdc",
+    "name": "Before bed survey + daily diary + daily report",
+    "type": "EVENT",
+    "start": "2026-04-04T21:30:00+00:00",
+    "duration": "1800s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "91dbedad-5f81-4ce5-b277-027032c98648",
+    "name": "Going offline/vigi",
+    "type": "EVENT",
+    "start": "2026-04-04T22:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b4fec9be-19c2-4d1a-8c11-82f1b55dc05e",
+    "name": "Going offline/vigi",
+    "type": "EVENT",
+    "start": "2026-04-04T22:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "68d275e6-58d5-4edc-8c6d-8f76419c1cfd",
+    "name": "Going offline/vigi",
+    "type": "EVENT",
+    "start": "2026-04-04T22:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "20ca3d67-ee5c-4fa4-8e76-8d47cc4e67c1",
+    "name": "Remote",
+    "type": "EVENT",
+    "start": "2026-04-04T22:00:00+00:00",
+    "duration": "39600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "1e9d31f7-09a9-413e-9d8c-4921abd77996",
+    "name": "Offline",
+    "type": "EVENT",
+    "start": "2026-04-04T23:00:00+00:00",
+    "duration": "28800s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "db572533-73b2-4b93-a671-cc0d1e940fa4",
+    "name": "Offline",
+    "type": "EVENT",
+    "start": "2026-04-04T23:00:00+00:00",
+    "duration": "28800s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "982835b8-a303-40f7-a3f7-eb6e12ba4cce",
+    "name": "Offline",
+    "type": "EVENT",
+    "start": "2026-04-04T23:00:00+00:00",
+    "duration": "28800s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c3e3b8b3-779a-415f-a34a-761ffc472fda",
+    "name": "Offline -> Wake",
+    "type": "EVENT",
+    "start": "2026-04-05T07:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f8d8703a-e5c4-4901-8840-d0c4faeec5e3",
+    "name": "Offline -> Wake",
+    "type": "EVENT",
+    "start": "2026-04-05T07:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5f471ed0-803b-4577-aeb0-26154c42fcb1",
+    "name": "Offline -> Wake",
+    "type": "EVENT",
+    "start": "2026-04-05T07:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "06671548-1a18-4530-b69a-ec30e3333595",
+    "name": "Vitals + Breakfast + Daily prebrief + Sensors",
+    "type": "EVENT",
+    "start": "2026-04-05T08:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "94edeeef-d252-4f4b-bc36-0366c2c2f4a4",
+    "name": "Vitals + Breakfast + Daily prebrief + Sensors",
+    "type": "EVENT",
+    "start": "2026-04-05T08:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "e45be253-2da7-494f-ad0d-199c0bc05d64",
+    "name": "Vitals + Breakfast + Daily prebrief + Sensors",
+    "type": "EVENT",
+    "start": "2026-04-05T08:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "22218450-1e22-4ed2-9037-8bbd5655c129",
+    "name": "MCC Live contact",
+    "type": "EVENT",
+    "start": "2026-04-05T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ca9bc075-0de8-4177-8246-83ff128b9fdf",
+    "name": "MCC Live contact",
+    "type": "EVENT",
+    "start": "2026-04-05T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "18d45882-46b5-40a8-994d-66489faac809",
+    "name": "MCC Live contact",
+    "type": "EVENT",
+    "start": "2026-04-05T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d11f98d0-1d96-4f7b-a8c8-3af557f57806",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-05T09:00:00+00:00",
+    "duration": "14400s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "db1eb335-edcc-485f-8248-1b61605e0077",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-05T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ff423346-544b-4060-9446-95328383b575",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-05T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b57a1881-e6f9-4b5f-a398-c10aa574e26c",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-05T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "02e768f8-303f-45b4-95ae-cad2bb1146cd",
+    "name": "ABCDEF",
+    "type": "EVENT",
+    "start": "2026-04-05T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ff8bfdf5-bd99-43cb-9c4e-298ded313c0d",
+    "name": "ABCDEF",
+    "type": "EVENT",
+    "start": "2026-04-05T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b55464bc-7643-4f4a-bc13-649e7750af72",
+    "name": "Socials",
+    "type": "EVENT",
+    "start": "2026-04-05T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5b3be13e-e3a3-483d-a8ce-71246fbecf78",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-05T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "e066bbb9-11a1-4200-b483-2ae1bb7bb3f3",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-05T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5be4e9b0-1886-4987-8362-105a5d05495d",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-05T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "6f5f5d43-2641-4dcf-8082-e7cdb2aec9f3",
+    "name": "Vitals + Lunch",
+    "type": "EVENT",
+    "start": "2026-04-05T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "140c37cc-cae5-4974-bb27-96be2a9c52c4",
+    "name": "Vitals + Lunch",
+    "type": "EVENT",
+    "start": "2026-04-05T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9ec27eb3-1f5c-40be-bbae-9571d4ea7c37",
+    "name": "Vitals + Lunch",
+    "type": "EVENT",
+    "start": "2026-04-05T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "7bf039a0-fda3-4425-85b6-ba4fd47b7a61",
+    "name": "Vitals + Lunch",
+    "type": "EVENT",
+    "start": "2026-04-05T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "896f0447-8d43-45dd-809a-f77274e4cb6a",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-05T14:00:00+00:00",
+    "duration": "8400s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "8af908f8-923a-479f-88b0-131b945b9202",
+    "name": "Spaceseed/vigi",
+    "type": "EVENT",
+    "start": "2026-04-05T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9aa4bd96-41bb-4f5b-88c9-110ecce6abe8",
+    "name": "Spaceseed/vigi",
+    "type": "EVENT",
+    "start": "2026-04-05T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "8fa5f9ea-129a-416a-ac2b-6e809b5dcb82",
+    "name": "Spaceseed/vigi",
+    "type": "EVENT",
+    "start": "2026-04-05T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f790cb79-899c-47ca-9c98-75d6260fae6d",
+    "name": "IVA",
+    "type": "EVENT",
+    "start": "2026-04-05T15:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "8c7a3644-3d1c-4957-b048-46c19d6b3a8d",
+    "name": "IVA",
+    "type": "EVENT",
+    "start": "2026-04-05T15:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "7805165c-0850-4167-8db2-01177af1ae0f",
+    "name": "IVA",
+    "type": "EVENT",
+    "start": "2026-04-05T15:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "1bf637a1-e666-465a-b4cc-5607fa87a594",
+    "name": "Wrap-up/clean",
+    "type": "EVENT",
+    "start": "2026-04-05T16:00:00+00:00",
+    "duration": "1200s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "45e440f1-cc86-4cae-8485-8f6133aa30f3",
+    "name": "Wrap-up/clean",
+    "type": "EVENT",
+    "start": "2026-04-05T16:00:00+00:00",
+    "duration": "1200s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fd02e56b-0f1a-45d5-b76c-d52f037ba2d7",
+    "name": "Wrap-up/clean",
+    "type": "EVENT",
+    "start": "2026-04-05T16:00:00+00:00",
+    "duration": "1200s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "757f2fe3-e74e-465d-a715-098aa693efa9",
+    "name": "EOM",
+    "type": "EVENT",
+    "start": "2026-04-05T16:20:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0342f14c-9969-44c7-9c2b-6de9edb28d17",
+    "name": "EOM",
+    "type": "EVENT",
+    "start": "2026-04-05T16:20:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "592a62c0-e20d-4cf0-b890-31bdeea7d5e2",
+    "name": "EOM",
+    "type": "EVENT",
+    "start": "2026-04-05T16:20:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fdeef091-4184-4da6-a751-cdf92de78016",
+    "name": "EOM",
+    "type": "EVENT",
+    "start": "2026-04-05T16:20:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "61dcfdda-7e87-4930-87e1-85f902516eb2",
+    "name": "PMD",
+    "type": "EVENT",
+    "start": "2026-04-05T16:30:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fdd5cb86-ac42-49a2-8362-3ed55e68777c",
+    "name": "PMD",
+    "type": "EVENT",
+    "start": "2026-04-05T16:30:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0ddcf2c4-4d60-4143-ab62-90dd7c1ef231",
+    "name": "PMD",
+    "type": "EVENT",
+    "start": "2026-04-05T16:30:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0a6a651d-48a6-4b48-b0f3-22e5617cef37",
+    "name": "PMD",
+    "type": "EVENT",
+    "start": "2026-04-05T16:30:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "Europe/Amsterdam"
+    }
+  }
+]

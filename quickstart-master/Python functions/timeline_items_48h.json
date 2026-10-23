@@ -1,0 +1,2702 @@
+[
+  {
+    "source": "rdb",
+    "id": "984ef391-b042-4217-9f75-1d884357cc95",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T10:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9d84460b-86cb-460c-974e-10b1ecaca518",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T10:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fc9dc09b-b80a-4267-9b72-882900bab4f4",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T10:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ef29ebbc-3ad3-437e-b5d3-75a4001ecbb7",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T10:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "3d175e1f-5b29-4840-aaae-55a4038b51d9",
+    "name": "Analogue training by Marc, safety and procedures",
+    "type": "EVENT",
+    "start": "2026-04-03T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "4f65abaa-a030-423c-bb84-6ebbce13bc88",
+    "name": "Analogue training by Marc, safety and procedures",
+    "type": "EVENT",
+    "start": "2026-04-03T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5797704d-fe3b-453f-9c9e-cd8f1096c70d",
+    "name": "Analogue training by Marc, safety and procedures",
+    "type": "EVENT",
+    "start": "2026-04-03T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "189e066f-e3cd-443f-b9ef-d67c4bd1b5b2",
+    "name": "Analogue training by Marc, safety and procedures",
+    "type": "EVENT",
+    "start": "2026-04-03T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ed2ce3b6-d699-4738-918e-ca0c05896ea8",
+    "name": "YAMCS training by Islam",
+    "type": "EVENT",
+    "start": "2026-04-03T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "bfb738bd-3f3c-4c5b-899e-4ffb9daa7b0c",
+    "name": "YAMCS training by Islam",
+    "type": "EVENT",
+    "start": "2026-04-03T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ef23b735-7e5c-4ab1-8936-eca2c68b61d1",
+    "name": "YAMCS training by Islam",
+    "type": "EVENT",
+    "start": "2026-04-03T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f7148b04-c65b-4fbd-88ef-695a0a88f6f6",
+    "name": "YAMCS training by Islam",
+    "type": "EVENT",
+    "start": "2026-04-03T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "117f58a9-d2fa-481e-8850-90393100efd1",
+    "name": "Mars team activity",
+    "type": "EVENT",
+    "start": "2026-04-03T14:00:00+00:00",
+    "duration": "10800s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "e78da49d-50ed-4a32-815d-cc73922fd6cc",
+    "name": "Mars team activity",
+    "type": "EVENT",
+    "start": "2026-04-03T14:00:00+00:00",
+    "duration": "10800s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "302fd0b4-4d37-4f72-8990-3cda04f3af74",
+    "name": "Mars team activity",
+    "type": "EVENT",
+    "start": "2026-04-03T14:00:00+00:00",
+    "duration": "10800s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "a35e3b18-b199-4c7d-94f9-df6cf7920aec",
+    "name": "Mars team activity",
+    "type": "EVENT",
+    "start": "2026-04-03T14:00:00+00:00",
+    "duration": "10800s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "TRAINING",
+      "placement": "fixed",
+      "backgroundColor": "#CFE2F3",
+      "borderColor": "#6D9EEB"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "770ea848-3027-46c7-97ff-0e8d40461b45",
+    "name": "T-0 (start of isolation)",
+    "type": "EVENT",
+    "start": "2026-04-03T17:00:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "MISSION_MARKER",
+      "placement": "fixed",
+      "backgroundColor": "#FCE5CD",
+      "borderColor": "#E69138"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "3206e94e-0aea-4428-9c92-88bb4e64f235",
+    "name": "T-0 (start of isolation)",
+    "type": "EVENT",
+    "start": "2026-04-03T17:00:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "MISSION_MARKER",
+      "placement": "fixed",
+      "backgroundColor": "#FCE5CD",
+      "borderColor": "#E69138"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fa915090-88ca-4dda-8ad5-3126d3f1f7a4",
+    "name": "T-0 (start of isolation)",
+    "type": "EVENT",
+    "start": "2026-04-03T17:00:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "MISSION_MARKER",
+      "placement": "fixed",
+      "backgroundColor": "#FCE5CD",
+      "borderColor": "#E69138"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "7fcb796d-5aa3-4adb-9924-6547c7d3a76f",
+    "name": "T-0 (start of isolation)",
+    "type": "EVENT",
+    "start": "2026-04-03T17:00:00+00:00",
+    "duration": "600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "MISSION_MARKER",
+      "placement": "fixed",
+      "backgroundColor": "#FCE5CD",
+      "borderColor": "#E69138"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "999f41a3-ef08-4c59-ad47-a515b7da0b59",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T17:10:00+00:00",
+    "duration": "10200s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "MISSION_CONTROL",
+      "placement": "fixed",
+      "backgroundColor": "#FFF2CC",
+      "borderColor": "#BF9000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "10327a84-bbde-480a-bedc-63abe4aa5475",
+    "name": "Set-up hab",
+    "type": "EVENT",
+    "start": "2026-04-03T17:10:00+00:00",
+    "duration": "3000s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "cc04e90c-6e97-42fb-836f-31a99d635260",
+    "name": "Set-up hab",
+    "type": "EVENT",
+    "start": "2026-04-03T17:10:00+00:00",
+    "duration": "3000s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "21a54382-4c39-43b0-9a6f-119b6e28e2aa",
+    "name": "Set-up hab",
+    "type": "EVENT",
+    "start": "2026-04-03T17:10:00+00:00",
+    "duration": "3000s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d2b5a4a2-c358-4c25-8c8a-669d3a2a3b5a",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-03T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "78657bb2-ef60-4c59-9a0c-9fa7f2e9a8aa",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-03T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c13ed68c-99af-49c5-bd61-5090084d356a",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-03T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b43390ac-c326-4c5d-9038-d04a31bcf1e5",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-03T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "456cf943-5915-4175-8494-df072f1e6e49",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-03T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "7b1f2192-84b1-4ec6-ac8e-65bfb2a615b0",
+    "name": "Spaceseed set-up (preparation)",
+    "type": "EVENT",
+    "start": "2026-04-03T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "6089b762-62b6-416f-aede-962aaffc4240",
+    "name": "MCC live contact for protocols",
+    "type": "EVENT",
+    "start": "2026-04-03T20:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d380b8e5-1a80-4c69-b57d-372b4fea4b8d",
+    "name": "MCC live contact for protocols",
+    "type": "EVENT",
+    "start": "2026-04-03T20:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c3dfa971-377d-4466-b28b-7d947281bda1",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-03T20:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5dc7ace8-3cf6-4286-b44d-ad8f079c82f6",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-03T20:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "84fc01c7-dd2c-4bd8-934a-4bfe70118b9a",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-03T21:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "MISSION_CONTROL",
+      "placement": "fixed",
+      "backgroundColor": "#FFF2CC",
+      "borderColor": "#BF9000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "ca8cadca-e055-4ed8-87ea-6edf3b14f02c",
+    "name": "Spaceseed set-up",
+    "type": "EVENT",
+    "start": "2026-04-03T21:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "44e47251-2469-4c34-89f9-85cb49047da2",
+    "name": "Spaceseed set-up",
+    "type": "EVENT",
+    "start": "2026-04-03T21:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "bfe3bfa2-a7a3-41f1-8ab9-7a58667ceb09",
+    "name": "Spaceseed set-up",
+    "type": "EVENT",
+    "start": "2026-04-03T21:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0046143c-2099-4236-ac11-d27bf4e63d4d",
+    "name": "Movie time",
+    "type": "EVENT",
+    "start": "2026-04-03T22:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "a36f17b6-1f80-4bf9-9e60-7aff9d091edd",
+    "name": "Movie time",
+    "type": "EVENT",
+    "start": "2026-04-03T22:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5f49a203-e8ec-4028-840a-bd15640b94c3",
+    "name": "Movie time",
+    "type": "EVENT",
+    "start": "2026-04-03T22:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f5465fd6-c2f7-4126-9957-41bdf263b017",
+    "name": "Remote",
+    "type": "EVENT",
+    "start": "2026-04-03T22:00:00+00:00",
+    "duration": "39600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "MISSION_CONTROL",
+      "placement": "fixed",
+      "backgroundColor": "#FFF2CC",
+      "borderColor": "#BF9000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "a276e976-486f-4c4f-9200-5c8cffd45c7f",
+    "name": "Offline",
+    "type": "EVENT",
+    "start": "2026-04-04T00:00:00+00:00",
+    "duration": "25200s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5368bfbc-2d79-44cc-bbaa-08516301e3ed",
+    "name": "Offline",
+    "type": "EVENT",
+    "start": "2026-04-04T00:00:00+00:00",
+    "duration": "25200s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "cbaa72c9-1546-4ca5-bacf-0ed39bfae8ab",
+    "name": "Offline",
+    "type": "EVENT",
+    "start": "2026-04-04T00:00:00+00:00",
+    "duration": "25200s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b80d78a2-a4b0-4fd6-9839-f007c778694d",
+    "name": "Offline, wake-up",
+    "type": "EVENT",
+    "start": "2026-04-04T07:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0ea46377-e1ef-412b-9f53-da4d194b82b3",
+    "name": "Offline, wake-up",
+    "type": "EVENT",
+    "start": "2026-04-04T07:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "37b295f0-17e5-47cf-ad53-26924531bd00",
+    "name": "Offline, wake-up",
+    "type": "EVENT",
+    "start": "2026-04-04T07:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f854fcc8-2b67-46bb-9c1f-b6845eccea6e",
+    "name": "Breakfast",
+    "type": "EVENT",
+    "start": "2026-04-04T08:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9d498e25-eb46-44ec-9586-9457d5fca1b3",
+    "name": "Breakfast",
+    "type": "EVENT",
+    "start": "2026-04-04T08:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "66bcdc0d-1cfe-4cff-b9cf-9e42867e0ae1",
+    "name": "Breakfast",
+    "type": "EVENT",
+    "start": "2026-04-04T08:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "e51a172f-58dc-4240-b645-7c906d6eaa47",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "7b697196-f2d3-4b41-90c2-6f34a2673c54",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "1ee4dbc8-5e73-4d4a-96a3-a5475472e860",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "55d5ee99-8bb3-4eee-b2d6-e59318e715dd",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f95a918f-eb40-4504-9e50-e23a793dbffe",
+    "name": "Comm test",
+    "type": "EVENT",
+    "start": "2026-04-04T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "41db4edf-0089-45e1-a244-9fe6cf45e512",
+    "name": "Comm test",
+    "type": "EVENT",
+    "start": "2026-04-04T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0e7f434c-a87c-4806-8d85-576e889d6908",
+    "name": "Comm test",
+    "type": "EVENT",
+    "start": "2026-04-04T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "2ff079d4-e6b5-4c27-bc97-dad6ff0a3aa0",
+    "name": "Socials",
+    "type": "EVENT",
+    "start": "2026-04-04T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "OUTREACH",
+      "placement": "flexible",
+      "backgroundColor": "#FFE599",
+      "borderColor": "#7F6000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0b656b54-dfef-47e1-a0e3-dc6e7e134c83",
+    "name": "ABCDEF",
+    "type": "EVENT",
+    "start": "2026-04-04T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b3d5538d-a8d2-4e5c-bec8-c284f6591f51",
+    "name": "ABCDEF",
+    "type": "EVENT",
+    "start": "2026-04-04T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9093896f-610e-4cf2-a303-b8e2418a7edf",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-04T11:00:00+00:00",
+    "duration": "28800s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "MISSION_CONTROL",
+      "placement": "fixed",
+      "backgroundColor": "#FFF2CC",
+      "borderColor": "#BF9000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f6d1bf2a-24d8-4bb0-90f7-973ca4f5a25c",
+    "name": "Socials",
+    "type": "EVENT",
+    "start": "2026-04-04T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "OUTREACH",
+      "placement": "flexible",
+      "backgroundColor": "#FFE599",
+      "borderColor": "#7F6000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "193a0f00-d11d-4769-abd0-c5500c712fb9",
+    "name": "Suit check/repair",
+    "type": "EVENT",
+    "start": "2026-04-04T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler; kept in the morning, before the IVAs.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "bf8e9eb5-6173-4b1e-9acf-d7a7b7a4f35f",
+    "name": "Suit check/repair",
+    "type": "EVENT",
+    "start": "2026-04-04T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler; kept in the morning, before the IVAs.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d0a8bee0-0e34-46d6-8e5a-adb8beb4ec9a",
+    "name": "Suit check/repair",
+    "type": "EVENT",
+    "start": "2026-04-04T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler; kept in the morning, before the IVAs.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9d5680aa-ab6b-462e-8a15-80eea1ed2e66",
+    "name": "Lunch",
+    "type": "EVENT",
+    "start": "2026-04-04T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "8359e935-2249-4446-a815-247909b408f3",
+    "name": "Lunch",
+    "type": "EVENT",
+    "start": "2026-04-04T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "91f40a21-6cb8-4afd-aee7-ea425a89e914",
+    "name": "Lunch",
+    "type": "EVENT",
+    "start": "2026-04-04T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "24482312-6e38-4b6c-94fa-477dd9919668",
+    "name": "IVA 1",
+    "type": "EVENT",
+    "start": "2026-04-04T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "29487d7f-f1c2-4f30-aad5-88719e1ebf33",
+    "name": "IVA 1",
+    "type": "EVENT",
+    "start": "2026-04-04T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "2b7f27de-9278-4781-91dc-55a6f46faaae",
+    "name": "IVA 1",
+    "type": "EVENT",
+    "start": "2026-04-04T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "4289e76e-ac33-4259-b65e-4390afd793e5",
+    "name": "IVA 2",
+    "type": "EVENT",
+    "start": "2026-04-04T15:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "14c27ca5-2a33-495b-a5a1-ea4730baf9c9",
+    "name": "IVA 2",
+    "type": "EVENT",
+    "start": "2026-04-04T15:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c3acc108-6e66-40c6-afc3-0ef0e30db2f0",
+    "name": "IVA 2",
+    "type": "EVENT",
+    "start": "2026-04-04T15:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d6ded02e-da80-48ef-85fe-f3448232af62",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-04T16:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "bf8977a0-23db-45cc-9b65-d77b00bc06ed",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-04T16:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "aaeb9028-fea1-4d26-b271-a336dd353c40",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-04T16:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "2e73ea1d-46a7-4173-8b52-5e2f262c5825",
+    "name": "IVA 3",
+    "type": "EVENT",
+    "start": "2026-04-04T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "495b176e-ea44-49b4-9e7a-fc3e9fe18cea",
+    "name": "IVA 3",
+    "type": "EVENT",
+    "start": "2026-04-04T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b31ae484-e74e-4584-b225-4a7b0468f194",
+    "name": "IVA 3",
+    "type": "EVENT",
+    "start": "2026-04-04T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f024dc2b-5aec-4e46-83c9-856751ab591b",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-04T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "de1e315c-a466-4cbb-9c34-755214fb8708",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-04T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "03d9a8b0-0268-442b-b32f-8f5104678736",
+    "name": "Dinner",
+    "type": "EVENT",
+    "start": "2026-04-04T18:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "6b0aa5cd-ef63-4b01-9dcd-df673208a494",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "4578356d-0926-4b3b-a569-93864bd31b26",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "bec56071-0a1d-4f1b-a540-ae09a37157dc",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5c4e4435-332e-4779-9564-0c36bf073edf",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-04T19:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d7a41260-984b-4bc6-ba22-267ca6215dd4",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-04T20:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "MISSION_CONTROL",
+      "placement": "fixed",
+      "backgroundColor": "#FFF2CC",
+      "borderColor": "#BF9000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5ea8451c-61a9-4053-b2c8-f439fe023c81",
+    "name": "Relax time",
+    "type": "EVENT",
+    "start": "2026-04-04T20:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "55b96505-fd25-407f-9727-2f39e0c901d8",
+    "name": "Relax time",
+    "type": "EVENT",
+    "start": "2026-04-04T20:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "95977a45-9a10-414b-8f5e-d55873b343db",
+    "name": "Relax time",
+    "type": "EVENT",
+    "start": "2026-04-04T20:00:00+00:00",
+    "duration": "7200s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "044da5a0-70f5-4d81-a700-39033790730b",
+    "name": "Going offline",
+    "type": "EVENT",
+    "start": "2026-04-04T22:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "58c7cbbc-9e1c-4d94-80c7-82860797ab91",
+    "name": "Going offline",
+    "type": "EVENT",
+    "start": "2026-04-04T22:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "297b4977-e147-432e-95d2-58ef109e86e7",
+    "name": "Going offline",
+    "type": "EVENT",
+    "start": "2026-04-04T22:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "662220c2-e9a7-452d-8d43-ffc03ad559f8",
+    "name": "Remote",
+    "type": "EVENT",
+    "start": "2026-04-04T22:00:00+00:00",
+    "duration": "39600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "MISSION_CONTROL",
+      "placement": "fixed",
+      "backgroundColor": "#FFF2CC",
+      "borderColor": "#BF9000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "22ad75ac-736a-4bfb-9250-1a5ca0be8db5",
+    "name": "Offline",
+    "type": "EVENT",
+    "start": "2026-04-04T23:00:00+00:00",
+    "duration": "28800s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9081a790-4edd-49cb-af8e-e7ec6d9eb2a9",
+    "name": "Offline",
+    "type": "EVENT",
+    "start": "2026-04-04T23:00:00+00:00",
+    "duration": "28800s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "3d1bbcd5-faf7-470c-b035-d6f8929cc1b4",
+    "name": "Offline",
+    "type": "EVENT",
+    "start": "2026-04-04T23:00:00+00:00",
+    "duration": "28800s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "431e053a-5cd0-4a01-bebb-3d042f5fec8d",
+    "name": "Offline, wake-up",
+    "type": "EVENT",
+    "start": "2026-04-05T07:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "9193e850-0ebc-4d7d-9d77-792e9501c247",
+    "name": "Offline, wake-up",
+    "type": "EVENT",
+    "start": "2026-04-05T07:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "20b57282-4654-4659-a8c8-7d325cd03936",
+    "name": "Offline, wake-up",
+    "type": "EVENT",
+    "start": "2026-04-05T07:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "REST",
+      "placement": "fixed",
+      "backgroundColor": "#EAD1DC",
+      "borderColor": "#A64D79"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b5eab19d-999d-4b4a-992c-9f80c6cb71d6",
+    "name": "Breakfast",
+    "type": "EVENT",
+    "start": "2026-04-05T08:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "1862e980-e540-40fd-9326-8ff48afbd3ca",
+    "name": "Breakfast",
+    "type": "EVENT",
+    "start": "2026-04-05T08:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "b3745946-31d3-4ff6-b80d-c7cd4e5b75ef",
+    "name": "Breakfast",
+    "type": "EVENT",
+    "start": "2026-04-05T08:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "14d8cba1-1a42-4811-929b-c46b6db930ee",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-05T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0d9e90ab-bf03-4f79-b003-41323cef26f7",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-05T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c6f2a5ca-8b50-43d1-8bcd-c7163d3ff6ad",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-05T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "d062d208-c0ec-41ef-a0c4-75a5e81e11a5",
+    "name": "MCC live contact",
+    "type": "EVENT",
+    "start": "2026-04-05T09:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "COMMS",
+      "placement": "fixed",
+      "backgroundColor": "#F4CCCC",
+      "borderColor": "#CC0000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "e9807d1b-e4b6-461b-98e7-f45c4d92cd26",
+    "name": "ABCDEF",
+    "type": "EVENT",
+    "start": "2026-04-05T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "2373ef19-c731-4175-aebb-454fa3c56f92",
+    "name": "ABCDEF",
+    "type": "EVENT",
+    "start": "2026-04-05T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "808fcb15-3ff1-47ff-8ac6-6cf1a84df294",
+    "name": "On-site",
+    "type": "EVENT",
+    "start": "2026-04-05T10:00:00+00:00",
+    "duration": "25200s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "MISSION_CONTROL",
+      "placement": "fixed",
+      "backgroundColor": "#FFF2CC",
+      "borderColor": "#BF9000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f6b2849d-1307-4651-80d8-964df3138295",
+    "name": "Socials",
+    "type": "EVENT",
+    "start": "2026-04-05T10:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "OUTREACH",
+      "placement": "flexible",
+      "backgroundColor": "#FFE599",
+      "borderColor": "#7F6000"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fabbdbac-a517-4102-a3a4-2132bef8eefe",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-05T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5327e3dc-d80e-420b-b086-42f8d39af502",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-05T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f7206e47-bd8b-4a58-929f-1010881fe294",
+    "name": "Surveys on hab",
+    "type": "EVENT",
+    "start": "2026-04-05T11:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "33baeb02-af9a-4182-9e8c-d9e181e26df7",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-05T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "1723cb1e-be59-4561-803b-df905f33be86",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-05T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "c0cbde3e-ad9e-46d7-9636-99400d427ad4",
+    "name": "Sensors",
+    "type": "EVENT",
+    "start": "2026-04-05T12:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SYSTEMS",
+      "placement": "flexible",
+      "backgroundColor": "#D0E0E3",
+      "borderColor": "#45818E"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "3c6081a5-0944-43c3-9a7e-65e81195af9b",
+    "name": "Lunch",
+    "type": "EVENT",
+    "start": "2026-04-05T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "cc237907-cdfa-4ee8-8aee-0b51588be86f",
+    "name": "Lunch",
+    "type": "EVENT",
+    "start": "2026-04-05T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "98acf978-8a15-4af3-80ca-104ad536a390",
+    "name": "Lunch",
+    "type": "EVENT",
+    "start": "2026-04-05T13:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "MEAL",
+      "placement": "fixed",
+      "backgroundColor": "#D9C29C",
+      "borderColor": "#A88E5B"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "be5b78f8-bc67-465e-967d-15d0160004fb",
+    "name": "Spaceseed / vigi",
+    "type": "EVENT",
+    "start": "2026-04-05T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "4d4e9884-35cd-47dd-ac21-5c47720438f1",
+    "name": "Spaceseed / vigi",
+    "type": "EVENT",
+    "start": "2026-04-05T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "265eb30d-0a25-49cd-af5d-c66aad20b57d",
+    "name": "Spaceseed / vigi",
+    "type": "EVENT",
+    "start": "2026-04-05T14:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "SCIENCE",
+      "placement": "flexible",
+      "backgroundColor": "#D9EAD3",
+      "borderColor": "#6AA84F"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "db15e1c9-bf94-4c49-8732-99d3efeb0a02",
+    "name": "IVA 3 (second session)",
+    "type": "EVENT",
+    "start": "2026-04-05T15:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "0c388746-aa19-4d32-b038-1797e6c9872f",
+    "name": "IVA 3 (second session)",
+    "type": "EVENT",
+    "start": "2026-04-05T15:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f65363e2-72d3-4f06-a2fd-a5aa37b8b421",
+    "name": "IVA 3 (second session)",
+    "type": "EVENT",
+    "start": "2026-04-05T15:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "Flexible activity, placed by the scheduler.",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "IVA",
+      "placement": "flexible",
+      "backgroundColor": "#D9D2E9",
+      "borderColor": "#674EA7"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f7e3a012-5348-411c-a31d-36c8b7fdc781",
+    "name": "Wrap-up/clean",
+    "type": "EVENT",
+    "start": "2026-04-05T16:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "fc99d981-5915-4591-8782-7e2585680ea6",
+    "name": "Wrap-up/clean",
+    "type": "EVENT",
+    "start": "2026-04-05T16:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "393d03e4-dc92-4641-822f-64e662847cfe",
+    "name": "Wrap-up/clean",
+    "type": "EVENT",
+    "start": "2026-04-05T16:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "OPERATIONS",
+      "placement": "fixed",
+      "backgroundColor": "#C9DAF8",
+      "borderColor": "#3C78D8"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "bbdff5a5-6efd-4207-8826-3801bb5d9e18",
+    "name": "PMD (post-mission debrief)",
+    "type": "EVENT",
+    "start": "2026-04-05T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "COM"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "COM",
+      "timezone": "UTC",
+      "kind": "MISSION_MARKER",
+      "placement": "fixed",
+      "backgroundColor": "#FCE5CD",
+      "borderColor": "#E69138"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "5d866df2-2952-4175-9bd5-620a6d7e6d6b",
+    "name": "PMD (post-mission debrief)",
+    "type": "EVENT",
+    "start": "2026-04-05T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "ENG"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "ENG",
+      "timezone": "UTC",
+      "kind": "MISSION_MARKER",
+      "placement": "fixed",
+      "backgroundColor": "#FCE5CD",
+      "borderColor": "#E69138"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "8c6b168e-3b5a-4e89-972c-29a39319e89e",
+    "name": "PMD (post-mission debrief)",
+    "type": "EVENT",
+    "start": "2026-04-05T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "MCC"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "MCC",
+      "timezone": "UTC",
+      "kind": "MISSION_MARKER",
+      "placement": "fixed",
+      "backgroundColor": "#FCE5CD",
+      "borderColor": "#E69138"
+    }
+  },
+  {
+    "source": "rdb",
+    "id": "f9987fc4-3843-4e79-a28f-6f5db0f15621",
+    "name": "PMD (post-mission debrief)",
+    "type": "EVENT",
+    "start": "2026-04-05T17:00:00+00:00",
+    "duration": "3600s",
+    "tags": [
+      "SCI"
+    ],
+    "description": "",
+    "properties": {
+      "lane": "SCI",
+      "timezone": "UTC",
+      "kind": "MISSION_MARKER",
+      "placement": "fixed",
+      "backgroundColor": "#FCE5CD",
+      "borderColor": "#E69138"
+    }
+  }
+]
