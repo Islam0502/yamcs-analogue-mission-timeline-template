@@ -108,7 +108,7 @@
         {"from": "13:00", "to": "18:00"}
       ]
     }
-  },
+  ],
   "options": {
     "slot_minutes": 15,
     "use_cpsat": true,
