@@ -1,0 +1,757 @@
+{
+  "mission": {
+    "name": "48-hour analogue mission (flexible scheduling demonstration)",
+    "start_date": "2026-04-03",
+    "days": 3,
+    "timezone": "UTC"
+  },
+  "crew": {
+    "lanes": [
+      {
+        "lane": "COM",
+        "role": "Commander"
+      },
+      {
+        "lane": "ENG",
+        "role": "Engineer"
+      },
+      {
+        "lane": "SCI",
+        "role": "Scientist"
+      },
+      {
+        "lane": "MCC",
+        "role": "Mission Control"
+      }
+    ]
+  },
+  "constraints": {
+    "recurring_blocks": [
+      {
+        "name": "On-site",
+        "start": "10:00",
+        "end": "12:00",
+        "participants": [
+          "ALL"
+        ],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      },
+      {
+        "name": "Analogue training by Marc, safety and procedures",
+        "start": "12:00",
+        "end": "13:00",
+        "participants": [
+          "ALL"
+        ],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "TRAINING"
+      },
+      {
+        "name": "YAMCS training by Islam",
+        "start": "13:00",
+        "end": "14:00",
+        "participants": [
+          "ALL"
+        ],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "TRAINING"
+      },
+      {
+        "name": "Mars team activity",
+        "start": "14:00",
+        "end": "17:00",
+        "participants": [
+          "ALL"
+        ],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "TRAINING"
+      },
+      {
+        "name": "T-0 (start of isolation)",
+        "start": "17:00",
+        "end": "17:10",
+        "participants": [
+          "ALL"
+        ],
+        "days": "DAYS:0",
+        "priority": 1000,
+        "kind": "MISSION_MARKER"
+      },
+      {
+        "name": "Set-up hab",
+        "start": "17:00",
+        "end": "18:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      },
+      {
+        "name": "Dinner",
+        "start": "18:00",
+        "end": "19:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:0,1",
+        "priority": 100,
+        "kind": "MEAL"
+      },
+      {
+        "name": "MCC live contact for protocols",
+        "start": "20:00",
+        "end": "21:00",
+        "participants": [
+          "COM",
+          "MCC"
+        ],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "COMMS"
+      },
+      {
+        "name": "Movie time",
+        "start": "22:00",
+        "end": "00:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:0",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "Offline",
+        "start": "00:00",
+        "end": "07:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "Offline, wake-up",
+        "start": "07:00",
+        "end": "08:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:1,2",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "Breakfast",
+        "start": "08:00",
+        "end": "09:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:1,2",
+        "priority": 100,
+        "kind": "MEAL"
+      },
+      {
+        "name": "MCC live contact",
+        "start": "09:00",
+        "end": "10:00",
+        "participants": [
+          "ALL"
+        ],
+        "days": "DAYS:1,2",
+        "priority": 100,
+        "kind": "COMMS"
+      },
+      {
+        "name": "Comm test",
+        "start": "10:00",
+        "end": "11:00",
+        "participants": [
+          "MCC",
+          "COM",
+          "ENG"
+        ],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "COMMS"
+      },
+      {
+        "name": "Lunch",
+        "start": "13:00",
+        "end": "14:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:1,2",
+        "priority": 100,
+        "kind": "MEAL"
+      },
+      {
+        "name": "MCC live contact",
+        "start": "19:00",
+        "end": "20:00",
+        "participants": [
+          "ALL"
+        ],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "COMMS"
+      },
+      {
+        "name": "Relax time",
+        "start": "20:00",
+        "end": "22:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "Going offline",
+        "start": "22:00",
+        "end": "23:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "Offline",
+        "start": "23:00",
+        "end": "07:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:1",
+        "priority": 100,
+        "kind": "REST"
+      },
+      {
+        "name": "Wrap-up/clean",
+        "start": "16:00",
+        "end": "17:00",
+        "participants": [
+          "COM",
+          "ENG",
+          "SCI"
+        ],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "OPERATIONS"
+      },
+      {
+        "name": "PMD (post-mission debrief)",
+        "start": "17:00",
+        "end": "18:00",
+        "participants": [
+          "ALL"
+        ],
+        "days": "DAYS:2",
+        "priority": 100,
+        "kind": "MISSION_MARKER"
+      },
+      {
+        "name": "On-site",
+        "start": "10:00",
+        "end": "22:00",
+        "participants": [
+          "MCC"
+        ],
+        "days": "DAYS:0",
+        "priority": 10,
+        "kind": "MISSION_CONTROL"
+      },
+      {
+        "name": "On-site",
+        "start": "09:00",
+        "end": "22:00",
+        "participants": [
+          "MCC"
+        ],
+        "days": "DAYS:1",
+        "priority": 10,
+        "kind": "MISSION_CONTROL"
+      },
+      {
+        "name": "On-site",
+        "start": "09:00",
+        "end": "17:00",
+        "participants": [
+          "MCC"
+        ],
+        "days": "DAYS:2",
+        "priority": 10,
+        "kind": "MISSION_CONTROL"
+      },
+      {
+        "name": "Remote",
+        "start": "22:00",
+        "end": "09:00",
+        "participants": [
+          "MCC"
+        ],
+        "days": "DAYS:0,1",
+        "priority": 10,
+        "kind": "MISSION_CONTROL"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "name": "Sensors",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG"
+      ],
+      "day": 0,
+      "windows": [
+        {
+          "from": "19:00",
+          "to": "22:00"
+        }
+      ],
+      "kind": "SYSTEMS",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "Surveys on hab",
+      "duration_min": 60,
+      "participants": [
+        "SCI"
+      ],
+      "day": 0,
+      "windows": [
+        {
+          "from": "19:00",
+          "to": "22:00"
+        }
+      ],
+      "kind": "SCIENCE",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "Surveys on hab",
+      "duration_min": 60,
+      "participants": [
+        "ENG"
+      ],
+      "day": 0,
+      "windows": [
+        {
+          "from": "19:00",
+          "to": "22:00"
+        }
+      ],
+      "kind": "SCIENCE",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "Spaceseed set-up (preparation)",
+      "duration_min": 60,
+      "participants": [
+        "SCI"
+      ],
+      "day": 0,
+      "windows": [
+        {
+          "from": "19:00",
+          "to": "22:00"
+        }
+      ],
+      "kind": "SCIENCE",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "Spaceseed set-up",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 0,
+      "windows": [
+        {
+          "from": "19:00",
+          "to": "22:00"
+        }
+      ],
+      "kind": "SCIENCE",
+      "description": "Flexible activity, placed by the scheduler.",
+      "after": "Spaceseed set-up (preparation)"
+    },
+    {
+      "name": "Socials",
+      "duration_min": 60,
+      "participants": [
+        "SCI"
+      ],
+      "day": 1,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        },
+        {
+          "from": "14:00",
+          "to": "18:00"
+        }
+      ],
+      "kind": "OUTREACH",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "Socials",
+      "duration_min": 60,
+      "participants": [
+        "COM"
+      ],
+      "day": 1,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        },
+        {
+          "from": "14:00",
+          "to": "18:00"
+        }
+      ],
+      "kind": "OUTREACH",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "ABCDEF",
+      "duration_min": 60,
+      "participants": [
+        "ENG",
+        "SCI"
+      ],
+      "day": 1,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        },
+        {
+          "from": "14:00",
+          "to": "18:00"
+        }
+      ],
+      "kind": "SCIENCE",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "Suit check/repair",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 1,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        }
+      ],
+      "kind": "SYSTEMS",
+      "description": "Flexible activity, placed by the scheduler; kept in the morning, before the IVAs."
+    },
+    {
+      "name": "IVA 1",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 1,
+      "windows": [
+        {
+          "from": "14:00",
+          "to": "18:00"
+        }
+      ],
+      "kind": "IVA",
+      "description": "Flexible activity, placed by the scheduler.",
+      "after": "Suit check/repair"
+    },
+    {
+      "name": "Sensors",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 1,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        },
+        {
+          "from": "14:00",
+          "to": "18:00"
+        }
+      ],
+      "kind": "SYSTEMS",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "IVA 2",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 1,
+      "windows": [
+        {
+          "from": "14:00",
+          "to": "18:00"
+        }
+      ],
+      "kind": "IVA",
+      "description": "Flexible activity, placed by the scheduler.",
+      "after": "IVA 1"
+    },
+    {
+      "name": "IVA 3",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 1,
+      "windows": [
+        {
+          "from": "14:00",
+          "to": "18:00"
+        }
+      ],
+      "kind": "IVA",
+      "description": "Flexible activity, placed by the scheduler.",
+      "after": "IVA 2"
+    },
+    {
+      "name": "Sensors",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 2,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        },
+        {
+          "from": "14:00",
+          "to": "16:00"
+        }
+      ],
+      "kind": "SYSTEMS",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "Socials",
+      "duration_min": 60,
+      "participants": [
+        "COM"
+      ],
+      "day": 2,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        },
+        {
+          "from": "14:00",
+          "to": "16:00"
+        }
+      ],
+      "kind": "OUTREACH",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "ABCDEF",
+      "duration_min": 60,
+      "participants": [
+        "ENG",
+        "SCI"
+      ],
+      "day": 2,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        },
+        {
+          "from": "14:00",
+          "to": "16:00"
+        }
+      ],
+      "kind": "SCIENCE",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "Surveys on hab",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 2,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        },
+        {
+          "from": "14:00",
+          "to": "16:00"
+        }
+      ],
+      "kind": "SCIENCE",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "Spaceseed / vigi",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 2,
+      "windows": [
+        {
+          "from": "10:00",
+          "to": "13:00"
+        },
+        {
+          "from": "14:00",
+          "to": "16:00"
+        }
+      ],
+      "kind": "SCIENCE",
+      "description": "Flexible activity, placed by the scheduler."
+    },
+    {
+      "name": "IVA 3 (second session)",
+      "duration_min": 60,
+      "participants": [
+        "COM",
+        "ENG",
+        "SCI"
+      ],
+      "day": 2,
+      "windows": [
+        {
+          "from": "14:00",
+          "to": "16:00"
+        }
+      ],
+      "kind": "IVA",
+      "description": "Flexible activity, placed by the scheduler."
+    }
+  ],
+  "styles": {
+    "kinds": {
+      "MEAL": {
+        "item_background_color": "#D9C29C",
+        "item_border_color": "#A88E5B"
+      },
+      "TRAINING": {
+        "item_background_color": "#CFE2F3",
+        "item_border_color": "#6D9EEB"
+      },
+      "SCIENCE": {
+        "item_background_color": "#D9EAD3",
+        "item_border_color": "#6AA84F"
+      },
+      "COMMS": {
+        "item_background_color": "#F4CCCC",
+        "item_border_color": "#CC0000"
+      },
+      "SYSTEMS": {
+        "item_background_color": "#D0E0E3",
+        "item_border_color": "#45818E"
+      },
+      "MISSION_CONTROL": {
+        "item_background_color": "#FFF2CC",
+        "item_border_color": "#BF9000"
+      },
+      "REST": {
+        "item_background_color": "#EAD1DC",
+        "item_border_color": "#A64D79"
+      },
+      "MISSION_MARKER": {
+        "item_background_color": "#FCE5CD",
+        "item_border_color": "#E69138"
+      },
+      "OPERATIONS": {
+        "item_background_color": "#C9DAF8",
+        "item_border_color": "#3C78D8"
+      },
+      "IVA": {
+        "item_background_color": "#D9D2E9",
+        "item_border_color": "#674EA7"
+      },
+      "OUTREACH": {
+        "item_background_color": "#FFE599",
+        "item_border_color": "#7F6000"
+      }
+    }
+  },
+  "options": {
+    "use_cpsat": true,
+    "slot_minutes": 10,
+    "time_limit_s": 20
+  },
+  "yamcs": {
+    "source": "rdb"
+  }
+}
