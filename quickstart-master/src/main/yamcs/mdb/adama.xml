@@ -8,6 +8,9 @@
 
     <ParameterTypeSet>
       <FloatParameterType name="float32">
+        <UnitSet>
+          <Unit>bar</Unit>
+        </UnitSet>
         <FloatDataEncoding sizeInBits="32"/>
       </FloatParameterType>
     </ParameterTypeSet>
